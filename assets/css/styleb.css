@@ -1,0 +1,110 @@
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.imglogo{
+  width: 300px;
+}
+.banner_inicio img {
+  width: 100%;
+}
+
+.menu{
+  color: #fff;
+}
+
+.menu:hover{
+  color:#797575;
+  font-weight: bold;
+  border-bottom: 5px solid #fff;
+}
+
+.menu:active{
+  color:#797575;
+  font-weight: bold;
+  border-bottom: 5px solid #fff;
+}
+
+.btn_nosotros_a{
+  text-decoration: none;
+  color: #ba1010;
+  font-weight: bold;
+}
+
+.btn_nosotros_a:hover{
+  color:#797575;
+  font-size: 1.1rem;
+  
+}
+
+.slogan{
+  padding:25px;
+}
+.texto_f h4{
+  font-size: 1rem;
+}
+.texto_f h2{
+  font-size: 1.5rem;
+}
+
+.texto_f p{
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+
+
+
+
+.caja_mm{
+  padding: 25px;
+}
+.texto_mm{
+  color:#ba1010;
+}
+
+.bi-search, .bi-facebook, .bi-linkedin, .bi-youtube {
+  font-size: 1.5rem;
+  color:#fff;
+}
+
+
+.iredes:hover{
+  color:#797575;
+}
+
+.parrafo, .slogan_t {
+  text-align: center;
+}
+
+.iredesf{
+  font-size: 3rem;
+  padding: 1.5rem;
+  color: #fff;
+}
+
+.iredesf:hover{
+  color: #797575;
+}
+
+.productos, .nosotros{
+  background-color:#797575;
+  text-align: center;
+}
+
+.nosotros_titulo{
+  text-align: center;
+  color: #ba1010;
+}
+.imgfoto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
