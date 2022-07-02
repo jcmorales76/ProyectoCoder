@@ -1,0 +1,24 @@
+/* @media */
+@media (min-width: 380px) {
+  .texto_f h4,
+  h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .texto_f {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .texto_f h4,
+  h2 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .texto_f {
+    text-align: left;
+  }
+
+}

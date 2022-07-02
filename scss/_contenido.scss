@@ -1,0 +1,31 @@
+.productos,
+.nosotros {
+  background-color: $colorSecundario;
+  text-align: center;
+}
+.contacto {
+  background-color: $colorSecundario;
+}
+
+.titulotarjetas {
+  color: $colorPrimario;
+  font-weight: bold;
+}
+
+/* Contenido de page areas*/
+.areatext{
+  background-color: $colorSecundario;
+  padding: 15px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  
+  h2{
+    color: $colorPrimario;
+    text-align: center;
+  }
+  p{
+    color:$colorBlanco;
+    text-align: center;
+  }
+}

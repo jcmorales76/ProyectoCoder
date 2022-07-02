@@ -1,0 +1,41 @@
+/* Texto Footer general */
+.texto_f {
+  h4 {
+    font-size: 1rem;
+  }
+}
+.texto_f {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.texto_f {
+  p {
+    font-size: 1rem;
+    padding-bottom: 10px;
+  }
+}
+
+.caja_mm {
+  padding: 25px;
+}
+.texto_mm {
+  color: $colorPrimario;
+}
+
+/*Redes Footer*/
+.iredesf {
+  font-size: 3rem;
+  padding: 1.5rem;
+  color: $colorBlanco;
+}
+
+.iredesf:hover {
+  color: $colorSecundario;
+}
+
+.parrafo,
+.slogan_t {
+  text-align: center;
+}

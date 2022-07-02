@@ -1,0 +1,10 @@
+/* Menu principal*/
+.menu {
+  color: $colorBlanco;
+}
+
+.menu:hover {
+  color: $colorSecundario;
+  font-weight: bold;
+  border-bottom: 5px solid $colorBlanco;
+}

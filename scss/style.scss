@@ -1,0 +1,33 @@
+$colorPrimario: #ba1010;
+$colorSecundario: #797575;
+$colorBlanco: #fff;
+
+@import "_reset.scss";
+@import "_carrusel";
+@import "_menuPrincipal";
+@import "_pie.scss";
+@import "_sloganIndex.scss";
+@import "_botonesR.scss";
+@import "_media.scss";
+@import "_formulario.scss";
+@import "_imagen.scss";
+@import "_contenido.scss";
+
+.t_areas {
+  background-color: $colorPrimario;
+  padding: 3rem;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  h2 {
+    color: $colorBlanco;
+  }
+}
+.icono {
+  font-size: 3.2rem;
+  color: $colorBlanco;
+}

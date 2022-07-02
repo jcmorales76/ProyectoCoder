@@ -1,0 +1,15 @@
+/* Slogan index*/
+.btn_nosotros_a {
+  text-decoration: none;
+  color: $colorPrimario;
+  font-weight: bold;
+}
+
+.btn_nosotros_a:hover {
+  color: $colorSecundario;
+  font-size: 1.1rem;
+}
+
+.slogan {
+  padding: 25px;
+}
