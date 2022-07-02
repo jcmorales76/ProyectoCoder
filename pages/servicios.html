@@ -23,7 +23,7 @@
                     <a href="../index.html" class="navbar-brand"><img class="imglogo"
                             src="../assets/img/logo-fepcmac-blanco.png" alt="logo"></a>
 
-                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                    <button type="button" class="navbar-toggler bg-light" data-bs-toggle="collapse"
                         data-bs-target="#menuNavegacion">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -61,34 +61,38 @@
         </div>
 
         <!-- Titulo de productos -->
-        <div class="productos container-fluid">
+        <div class="productos container-fluid p-3">
             <div class="justify-content-center">
                 <h1 class="productos_titulo text-danger p-3">Productos a tu servicio</h1>
             </div>
             <!-- tarjetas">-->
-            <div class="container-fluid">
-                <div class="row productost justify-content-center col p-3" data-aos="zoom-in">
-                    <div class="productos__box imglogo col col-md-2 col-lg-3 col-xl-3 bg-light m-2 p-2">
-                        <img src="../assets/img/imagen_asesoria.png" alt="Asesoria">
-                        <h2>Asesoria</h2>
-                        <p>Las decisiones financieras son una parte esencial en cualquier estrategia de gestión
-                            empresarial
-                        </p>
-                    </div>
+            <div class="card-group container-fluid">
+                <div class="row card m-2 p-2 col" data-aos="zoom-in">
+                    <img src="../assets/img/asesoria.jpeg" class="card-img-top" alt="asesoria">
+                    <div class="card-body">
+                        <h5 class="titulotarjetas card-title">Asesoria</h5>
+                        <p class="card-text">Las decisiones financieras son una parte esencial en cualquier estrategia
+                            de gestión
+                            empresarial.</p>
 
-                    <div class="productos__box imglogo col col-md-2 col-lg-3 col-xl-3 bg-light m-2 p-2">
-                        <img src="../assets/img/imagen_capacitacion.png" alt="Capacitacion">
-                        <h2>Capacitacion</h2>
-                        <p>Fomentar la actualización en temas estratégicos de gestión empresarial</p>
-                    </div>
-
-                    <div class="productos__box imglogo col col-md-2 col-lg-3 col-xl-3 bg-light m-2 p-2">
-                        <img src="../assets/img/imagen_informes.png" alt="Informes">
-                        <h2>Informes</h2>
-                        <p>benchmarking entre las entidades del sector financiero</p>
                     </div>
                 </div>
+                <div class="card m-2 p-2 col-md-none " data-aos="zoom-in">
+                    <img src="../assets/img/capacitacion.png" class="card-img-top" alt="capacitacion">
+                    <div class="card-body">
+                        <h5 class="titulotarjetas card-title">Capacitacion</h5>
+                        <p class="card-text">Fomentar la actualización en temas estratégicos de gestión empresarial.</p>
 
+                    </div>
+                </div>
+                <div class="card m-2 p-2" data-aos="zoom-in">
+                    <img src="../assets/img/informes.jpeg" class="card-img-top" alt="informes">
+                    <div class="card-body">
+                        <h5 class="titulotarjetas card-title">Informes</h5>
+                        <p class="card-text">benchmarking entre las entidades del sector financiero.</p>
+
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -117,8 +121,6 @@
             </div>
         </div>
     </footer>
-
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
