@@ -1,6 +1,3 @@
-$colorPrimario: #ba1010;
-$colorSecundario: #797575;
-$colorBlanco: #fff;
 
 @import "_reset.scss";
 @import "_carrusel";
@@ -14,4 +11,5 @@ $colorBlanco: #fff;
 @import "_contenido.scss";
 @import "_areas.scss";
 @import "_generales.scss";
+@import "_variables.scss"
 

@@ -1,31 +1,31 @@
 .productos,
 .nosotros {
-  background-color: $colorSecundario;
+  background-color: map-get($map: $paletacolores, $key: colorSecundario);
   text-align: center;
 }
 .contacto {
-  background-color: $colorSecundario;
+  background-color: map-get($map: $paletacolores, $key: colorSecundario);
 }
 
 .titulotarjetas {
-  color: $colorPrimario;
+  color: map-get($map: $paletacolores, $key: colorPrimario);
   font-weight: bold;
 }
 
 /* Contenido de page areas*/
 .areatext{
-  background-color: $colorSecundario;
+  background-color: map-get($map: $paletacolores, $key: colorSecundario);
   padding: 15px;
   display:flex;
   flex-wrap: wrap;
   justify-content:center;
   
   h2{
-    color: $colorPrimario;
+    color: map-get($map: $paletacolores, $key: colorPrimario);
     text-align: center;
   }
   p{
-    color:$colorBlanco;
+    color:map-get($map: $paletacolores, $key: colorBlanco);
     text-align: center;
   }
 }

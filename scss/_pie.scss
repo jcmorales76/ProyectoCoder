@@ -21,18 +21,18 @@
   padding: 25px;
 }
 .texto_mm {
-  color: $colorPrimario;
+  color: map-get($map: $paletacolores, $key: colorPrimario);
 }
 
 /*Redes Footer*/
 .iredesf {
   font-size: 3rem;
   padding: 1.5rem;
-  color: $colorBlanco;
+  color: map-get($map: $paletacolores, $key: colorBlanco);
 }
 
 .iredesf:hover {
-  color: $colorSecundario;
+  color: map-get($map: $paletacolores, $key: colorSecundario);
 }
 
 .parrafo,

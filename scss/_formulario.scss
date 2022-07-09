@@ -1,9 +1,9 @@
 /* Formulario */
 .form-label {
     padding-top: 0.2em;
-    color: $colorPrimario;
+    color: map-get($map: $paletacolores, $key: colorPrimario);
   }
   
   .form-control {
-    border: 1px solid $colorPrimario;
+    border: 1px solid map-get($map: $paletacolores, $key: colorPrimario);
   }
