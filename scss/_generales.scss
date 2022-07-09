@@ -1,0 +1,10 @@
+.ubanners{
+    @extend .banners;
+}
+.utitulo{
+    @extend .titulos;
+}
+
+.utexto{
+    @extend .texto;
+}

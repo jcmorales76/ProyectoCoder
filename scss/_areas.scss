@@ -1,0 +1,32 @@
+@mixin area {
+  background-color: $colorPrimario;
+  padding: 3rem;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    color: $colorBlanco;
+  }
+  .icono {
+    font-size: 3.2rem;
+    color: $colorBlanco;
+  }
+}
+
+.t_areas1 {
+  @include area;
+}
+.t_areas2 {
+  @include area;
+}
+.t_areas3 {
+  @include area;
+}
+
+.t_areas3 {
+  @include area;
+}

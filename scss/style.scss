@@ -12,22 +12,6 @@ $colorBlanco: #fff;
 @import "_formulario.scss";
 @import "_imagen.scss";
 @import "_contenido.scss";
+@import "_areas.scss";
+@import "_generales.scss";
 
-.t_areas {
-  background-color: $colorPrimario;
-  padding: 3rem;
-  margin-bottom: 5px;
-  border-radius: 15px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items:center;
-  h2 {
-    color: $colorBlanco;
-  }
-}
-.icono {
-  font-size: 3.2rem;
-  color: $colorBlanco;
-}
