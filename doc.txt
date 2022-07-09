@@ -1,0 +1,8 @@
+Modificaciones en esta entrega
+==============================
+
+-Seo agregue las etiquetas meta, con name description y keywords en todas las paginas.
+
+- Realice map con el scss _variables, donde indique los colores generales del proyecto de web que estoy haciendo, y con map-get agregue en toda la pagina donde se mostraba los colores de la paleta
+- En el scss _areas.scss realice mixin, donde las tarjetas centrales las propiedades se reterian y se utilizo el include para aplicarlo a las otras tarjetas de caracteristicas iguales.
+- En el scss _imagen.scss se agrego tres clases, .banners, .titulos, .texto, estos se aplicaron con extend, en _generales.scss.
