@@ -4,13 +4,6 @@
   padding: 0;
   font-family: sans-serif; }
 
-/* Texto banner */
-.carousel-caption h5 {
-  font-weight: bold;
-  font-size: 2rem;
-  color: #ba1010;
-  background-color: #fff; }
-
 /* Menu principal*/
 .menu {
   color: #fff; }
@@ -18,7 +11,7 @@
 .menu:hover {
   color: #797575;
   font-weight: bold;
-  border-bottom: 5px solid #fff; }
+  border-bottom: 5px solid #797575; }
 
 /* Texto Footer general */
 .texto_f h4 {
@@ -35,7 +28,7 @@
   padding: 25px; }
 
 .texto_mm {
-  color: #ba1010; }
+  color: #BA1010; }
 
 /*Redes Footer*/
 .iredesf {
@@ -53,7 +46,7 @@
 /* Slogan index*/
 .btn_nosotros_a {
   text-decoration: none;
-  color: #ba1010;
+  color: #BA1010;
   font-weight: bold; }
 
 .btn_nosotros_a:hover {
@@ -93,10 +86,10 @@
 /* Formulario */
 .form-label {
   padding-top: 0.2em;
-  color: #ba1010; }
+  color: #BA1010; }
 
 .form-control {
-  border: 1px solid #ba1010; }
+  border: 1px solid #BA1010; }
 
 /* logotipo */
 .imglogo {
@@ -111,7 +104,7 @@
   box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.3); }
 
 .titulos, .utitulo {
-  color: #ba1010;
+  color: #BA1010;
   padding: 15px;
   font-weight: 700;
   font-size: 35px;
@@ -141,7 +134,7 @@
   background-color: #797575; }
 
 .titulotarjetas {
-  color: #ba1010;
+  color: #BA1010;
   font-weight: bold; }
 
 /* Contenido de page areas*/
@@ -152,14 +145,21 @@
   flex-wrap: wrap;
   justify-content: center; }
   .areatext h2 {
-    color: #ba1010;
+    color: #BA1010;
     text-align: center; }
   .areatext p {
     color: #fff;
     text-align: center; }
 
+/* Texto banner */
+.carousel-caption h5 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #BA1010;
+  background-color: #fff; }
+
 .t_areas1 {
-  background-color: #ba1010;
+  background-color: #BA1010;
   padding: 3rem;
   margin-bottom: 5px;
   border-radius: 15px;
@@ -175,7 +175,7 @@
     color: #fff; }
 
 .t_areas2 {
-  background-color: #ba1010;
+  background-color: #BA1010;
   padding: 3rem;
   margin-bottom: 5px;
   border-radius: 15px;
@@ -191,7 +191,7 @@
     color: #fff; }
 
 .t_areas3 {
-  background-color: #ba1010;
+  background-color: #BA1010;
   padding: 3rem;
   margin-bottom: 5px;
   border-radius: 15px;
@@ -207,7 +207,7 @@
     color: #fff; }
 
 .t_areas3 {
-  background-color: #ba1010;
+  background-color: #BA1010;
   padding: 3rem;
   margin-bottom: 5px;
   border-radius: 15px;
