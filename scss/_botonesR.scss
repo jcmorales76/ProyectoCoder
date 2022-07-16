@@ -1,9 +1,0 @@
-/* Botones de redes sociales */
-.iredes {
-  font-size: 1.5rem;
-  color: map-get($map: $paletacolores, $key: colorBlanco);
-}
-
-.iredes:hover {
-  color: map-get($map: $paletacolores, $key: colorSecundario);
-}

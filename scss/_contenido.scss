@@ -1,3 +1,188 @@
+/* Global */
+/* Menu principal*/
+.menu {
+  color: map-get($map: $paletacolores, $key: colorBlanco);
+}
+
+.menu:hover {
+  color: map-get($map: $paletacolores, $key: colorSecundario);
+  font-weight: bold;
+  border-bottom: 5px solid map-get($map: $paletacolores, $key: colorSecundario);
+}
+
+/* Botones de redes sociales */
+.iredes {
+  font-size: 1.5rem;
+  color: map-get($map: $paletacolores, $key: colorBlanco);
+}
+
+.iredes:hover {
+  color: map-get($map: $paletacolores, $key: colorSecundario);
+}
+
+/* Texto Footer general */
+.texto_f {
+  h4 {
+    font-size: 1rem;
+  }
+}
+.texto_f {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.texto_f {
+  p {
+    font-size: 1rem;
+    padding-bottom: 10px;
+  }
+}
+
+.caja_mm {
+  padding: 25px;
+}
+.texto_mm {
+  color: map-get($map: $paletacolores, $key: colorPrimario);
+}
+
+/* logotipo */
+.imglogo {
+  width: 300px;
+}
+/* Banner otros */
+.banners {
+  display:flex;
+  justify-content:center;
+  width: 100%;
+  background-color: map-get($map: $paletacolores, $key: colorSecundario);
+  box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.3);
+}
+
+.titulos {
+  color: map-get($map: $paletacolores, $key: colorPrimario);
+  padding: 15px;
+  font-weight: 700;
+  font-size: 35px;
+  opacity: 0.85;
+  box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.3);
+  
+}
+
+.texto {
+  color: map-get($map: $paletacolores, $key: colorSecundario);
+  font-weight: 400;
+  opacity: 0.75;
+  text-align: center;
+}
+.subtitulo{
+  color: map-get($map: $paletacolores, $key: colorPrimario);
+  padding: 15px;
+  font-weight: 700;
+  font-size: 35px;
+  opacity: 0.85;
+}
+
+.textopubli{
+  color: map-get($map: $paletacolores, $key: colorSecundario);
+  text-align: justify;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 12px;
+  opacity: 0.85;  
+}
+
+.fs-7{
+  font-size:11px;
+}
+
+.banner_inicio {
+  img {
+    width: 100%;
+  }
+}
+
+.imgfoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgpublicaciones{
+  width: 250px;
+}
+
+/*Redes Footer*/
+.iredesf {
+  font-size: 3rem;
+  padding: 1.5rem;
+  color: map-get($map: $paletacolores, $key: colorBlanco);
+}
+
+.iredesf:hover {
+  color: map-get($map: $paletacolores, $key: colorSecundario);
+}
+
+.parrafo,
+.slogan_t {
+  text-align: center;
+}
+
+
+/* Index Page */
+/* Texto banner */
+.carousel-caption {
+  h5 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: map-get($map: $paletacolores, $key: colorPrimario);
+    background-color: map-get($map: $paletacolores, $key: colorBlanco);
+  }
+}
+/* Estadisticas */
+.est{
+  // background-color: map-get($map: $paletacolores, $key: colorSecundario);
+  margin: 1rem;
+  padding: 2rem;
+  display:flex;
+  align-items: center;
+  text-align: center;
+  .img_est{
+    font-size: 200px;
+    color: map-get($map: $paletacolores, $key: colorPrimario);
+  }
+  .descarga{
+    text-decoration: none;
+    color: map-get($map: $paletacolores, $key: colorPrimario);
+    border: 1px solid map-get($map: $paletacolores, $key: colorPrimario);
+    border-radius: 5px;
+    padding:1rem;
+  }
+  .descarga:hover{
+    color: map-get($map: $paletacolores, $key: colorSecundario);
+    border: 1px solid map-get($map: $paletacolores, $key: colorSecundario);
+  }
+}
+/* Slogan index*/
+.btn_nosotros_a {
+  text-decoration: none;
+  color:map-get($map: $paletacolores, $key: colorPrimario);
+  font-weight: bold;
+}
+
+.btn_nosotros_a:hover {
+  color: map-get($map: $paletacolores, $key: colorSecundario);
+  font-size: 1.1rem;
+}
+
+.slogan {
+  padding: 25px;
+}
+
+/* Servicios */
+
+
+/*Productos y nosotros*/
 .productos,
 .nosotros {
   background-color: map-get($map: $paletacolores, $key: colorSecundario);
@@ -13,6 +198,41 @@
 }
 
 /* Contenido de page areas*/
+/* tarjetas*/
+@mixin area {
+  background-color: map-get($map: $paletacolores, $key: colorPrimario);
+  padding: 3rem;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    color: map-get($map: $paletacolores, $key: colorBlanco);
+  }
+  .icono {
+    font-size: 3.2rem;
+    color: map-get($map: $paletacolores, $key: colorBlanco);
+  }
+}
+
+.t_areas1 {
+  @include area;
+}
+.t_areas2 {
+  @include area;
+}
+.t_areas3 {
+  @include area;
+}
+
+.t_areas3 {
+  @include area;
+}
+
+
 .areatext{
   background-color: map-get($map: $paletacolores, $key: colorSecundario);
   padding: 15px;
@@ -28,4 +248,15 @@
     color:map-get($map: $paletacolores, $key: colorBlanco);
     text-align: center;
   }
+
+ /* contacto page */
+ /* Formulario */
+.form-label {
+  padding-top: 0.2em;
+  color: map-get($map: $paletacolores, $key: colorPrimario);
+}
+
+.form-control {
+  border: 1px solid map-get($map: $paletacolores, $key: colorPrimario);
+} 
 }

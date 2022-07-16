@@ -4,66 +4,6 @@
   padding: 0;
   font-family: sans-serif; }
 
-/* Menu principal*/
-.menu {
-  color: #fff; }
-
-.menu:hover {
-  color: #797575;
-  font-weight: bold;
-  border-bottom: 5px solid #797575; }
-
-/* Texto Footer general */
-.texto_f h4 {
-  font-size: 1rem; }
-
-.texto_f h2 {
-  font-size: 1.5rem; }
-
-.texto_f p {
-  font-size: 1rem;
-  padding-bottom: 10px; }
-
-.caja_mm {
-  padding: 25px; }
-
-.texto_mm {
-  color: #BA1010; }
-
-/*Redes Footer*/
-.iredesf {
-  font-size: 3rem;
-  padding: 1.5rem;
-  color: #fff; }
-
-.iredesf:hover {
-  color: #797575; }
-
-.parrafo,
-.slogan_t {
-  text-align: center; }
-
-/* Slogan index*/
-.btn_nosotros_a {
-  text-decoration: none;
-  color: #BA1010;
-  font-weight: bold; }
-
-.btn_nosotros_a:hover {
-  color: #797575;
-  font-size: 1.1rem; }
-
-.slogan {
-  padding: 25px; }
-
-/* Botones de redes sociales */
-.iredes {
-  font-size: 1.5rem;
-  color: #fff; }
-
-.iredes:hover {
-  color: #797575; }
-
 /* @media */
 @media (min-width: 380px) {
   .texto_f h4,
@@ -83,13 +23,40 @@
   .texto_f {
     text-align: left; } }
 
-/* Formulario */
-.form-label {
-  padding-top: 0.2em;
-  color: #BA1010; }
+/* Global */
+/* Menu principal*/
+.menu {
+  color: #fff; }
 
-.form-control {
-  border: 1px solid #BA1010; }
+.menu:hover {
+  color: #797575;
+  font-weight: bold;
+  border-bottom: 5px solid #797575; }
+
+/* Botones de redes sociales */
+.iredes {
+  font-size: 1.5rem;
+  color: #fff; }
+
+.iredes:hover {
+  color: #797575; }
+
+/* Texto Footer general */
+.texto_f h4 {
+  font-size: 1rem; }
+
+.texto_f h2 {
+  font-size: 1.5rem; }
+
+.texto_f p {
+  font-size: 1rem;
+  padding-bottom: 10px; }
+
+.caja_mm {
+  padding: 25px; }
+
+.texto_mm {
+  color: #BA1010; }
 
 /* logotipo */
 .imglogo {
@@ -117,6 +84,24 @@
   opacity: 0.75;
   text-align: center; }
 
+.subtitulo, .subtitulos {
+  color: #BA1010;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 35px;
+  opacity: 0.85; }
+
+.textopubli {
+  color: #797575;
+  text-align: justify;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 12px;
+  opacity: 0.85; }
+
+.fs-7 {
+  font-size: 11px; }
+
 .banner_inicio img {
   width: 100%; }
 
@@ -125,6 +110,65 @@
   justify-content: center;
   align-items: center; }
 
+.imgpublicaciones {
+  width: 250px; }
+
+/*Redes Footer*/
+.iredesf {
+  font-size: 3rem;
+  padding: 1.5rem;
+  color: #fff; }
+
+.iredesf:hover {
+  color: #797575; }
+
+.parrafo,
+.slogan_t {
+  text-align: center; }
+
+/* Index Page */
+/* Texto banner */
+.carousel-caption h5 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #BA1010;
+  background-color: #fff; }
+
+/* Estadisticas */
+.est {
+  margin: 1rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center; }
+  .est .img_est {
+    font-size: 200px;
+    color: #BA1010; }
+  .est .descarga {
+    text-decoration: none;
+    color: #BA1010;
+    border: 1px solid #BA1010;
+    border-radius: 5px;
+    padding: 1rem; }
+  .est .descarga:hover {
+    color: #797575;
+    border: 1px solid #797575; }
+
+/* Slogan index*/
+.btn_nosotros_a {
+  text-decoration: none;
+  color: #BA1010;
+  font-weight: bold; }
+
+.btn_nosotros_a:hover {
+  color: #797575;
+  font-size: 1.1rem; }
+
+.slogan {
+  padding: 25px; }
+
+/* Servicios */
+/*Productos y nosotros*/
 .productos,
 .nosotros {
   background-color: #797575;
@@ -138,26 +182,7 @@
   font-weight: bold; }
 
 /* Contenido de page areas*/
-.areatext {
-  background-color: #797575;
-  padding: 15px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
-  .areatext h2 {
-    color: #BA1010;
-    text-align: center; }
-  .areatext p {
-    color: #fff;
-    text-align: center; }
-
-/* Texto banner */
-.carousel-caption h5 {
-  font-weight: bold;
-  font-size: 2rem;
-  color: #BA1010;
-  background-color: #fff; }
-
+/* tarjetas*/
 .t_areas1 {
   background-color: #BA1010;
   padding: 3rem;
@@ -221,3 +246,27 @@
   .t_areas3 .icono {
     font-size: 3.2rem;
     color: #fff; }
+
+.areatext {
+  background-color: #797575;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* contacto page */
+  /* Formulario */ }
+  .areatext h2 {
+    color: #BA1010;
+    text-align: center; }
+  .areatext p {
+    color: #fff;
+    text-align: center; }
+  .areatext .form-label {
+    padding-top: 0.2em;
+    color: #BA1010; }
+  .areatext .form-control {
+    border: 1px solid #BA1010; }
+
+.subtitulos {
+  justify-content: center;
+  font-size: 28px; }

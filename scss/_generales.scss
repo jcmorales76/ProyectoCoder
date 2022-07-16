@@ -8,3 +8,9 @@
 .utexto{
     @extend .texto;
 }
+
+.subtitulos{
+    @extend .subtitulo;
+    justify-content:center;
+    font-size: 28px;
+}
