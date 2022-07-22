@@ -185,8 +185,8 @@
 /* tarjetas*/
 .t_areas1 {
   background-color: #BA1010;
-  padding: 3rem;
-  margin-bottom: 5px;
+  padding: 2rem;
+  margin: 5px;
   border-radius: 15px;
   text-align: center;
   display: flex;
@@ -199,10 +199,17 @@
     font-size: 3.2rem;
     color: #fff; }
 
+.t_areas1:hover {
+  background-color: #797575; }
+  .t_areas1:hover h2 {
+    color: #fff; }
+  .t_areas1:hover .icono {
+    color: #fff; }
+
 .t_areas2 {
   background-color: #BA1010;
-  padding: 3rem;
-  margin-bottom: 5px;
+  padding: 2rem;
+  margin: 5px;
   border-radius: 15px;
   text-align: center;
   display: flex;
@@ -215,10 +222,17 @@
     font-size: 3.2rem;
     color: #fff; }
 
+.t_areas2:hover {
+  background-color: #797575; }
+  .t_areas2:hover h2 {
+    color: #fff; }
+  .t_areas2:hover .icono {
+    color: #fff; }
+
 .t_areas3 {
   background-color: #BA1010;
-  padding: 3rem;
-  margin-bottom: 5px;
+  padding: 2rem;
+  margin: 5px;
   border-radius: 15px;
   text-align: center;
   display: flex;
@@ -231,20 +245,11 @@
     font-size: 3.2rem;
     color: #fff; }
 
-.t_areas3 {
-  background-color: #BA1010;
-  padding: 3rem;
-  margin-bottom: 5px;
-  border-radius: 15px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .t_areas3 h2 {
+.t_areas3:hover {
+  background-color: #797575; }
+  .t_areas3:hover h2 {
     color: #fff; }
-  .t_areas3 .icono {
-    font-size: 3.2rem;
+  .t_areas3:hover .icono {
     color: #fff; }
 
 .areatext {

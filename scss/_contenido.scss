@@ -197,12 +197,13 @@
   font-weight: bold;
 }
 
+
 /* Contenido de page areas*/
 /* tarjetas*/
 @mixin area {
   background-color: map-get($map: $paletacolores, $key: colorPrimario);
-  padding: 3rem;
-  margin-bottom: 5px;
+  padding: 2rem;
+  margin: 5px;
   border-radius: 15px;
   text-align: center;
   display: flex;
@@ -217,19 +218,33 @@
     color: map-get($map: $paletacolores, $key: colorBlanco);
   }
 }
+@mixin areah {
+  background-color: map-get($map: $paletacolores, $key: colorSecundario);
+  h2 {
+    color: map-get($map: $paletacolores, $key: colorBlanco);
+  }
+  .icono {
+    color: map-get($map: $paletacolores, $key: colorBlanco);
+  }
+}
 
 .t_areas1 {
   @include area;
 }
+.t_areas1:hover {
+  @include areah;
+}
 .t_areas2 {
   @include area;
 }
+.t_areas2:hover {
+  @include areah;
+}
 .t_areas3 {
   @include area;
 }
-
-.t_areas3 {
-  @include area;
+.t_areas3:hover {
+  @include areah;
 }
 
 

@@ -1,7 +1,6 @@
 {
   "name": "proyectocoder",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,6 +19,7 @@
   "homepage": "https://github.com/jcmorales76/ProyectoCoder#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.18"
-  }
+    "nodemon": "^2.0.19"
+  },
+  "description": ""
 }
